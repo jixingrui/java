@@ -1,0 +1,27 @@
+zbase path finding
+
+compiling
+1, generate a skeleton from zbase bitmap
+2, mark crossing,terminal,turning on the skeleton. call them nodes
+   turning is found by connecting two neighbor nodes, 
+   and calculate the distance between every point on the path and the line. 
+   the farthest point is the turning.
+
+preparing
+3, sort x and y separately for the nodes
+
+initializing
+4, from start point, use x/y sorting to find k nearest nods.
+5, from start point, cast ray to check straight line connectivity to k nearest nodes
+   the algorithm guarantees to fine one
+6, from end point, find nearest node as above
+
+path finding
+7, use weighted aStar to find a path between the start node and the end node
+
+walking
+8, when walking towards the next node, do ray casting to the next-next node. if reachable, walk to it instead.
+
+discussion
+9, from every crossing node, do line sweeping to find the nearest 3 wall peaks. mark them as peak nodes
+ 
