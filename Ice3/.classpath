@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AzuraJava"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/commons/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/logger/log4j-1.2.17.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Junior3"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Helios"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Hard14"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/kryo/kryo-4.0.0.jar" sourcepath="/AzuraJava/lib/kryo/kryo-4.0.0-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Banshee"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/aliyun/nls-service-sdk.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
