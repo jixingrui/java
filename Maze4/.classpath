@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AzuraJava"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Hard14"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Karma2"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/commons/commons-lang3-3.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Helios"/>
+	<classpathentry kind="lib" path="/AzuraJava/lib/guava/guava-21.0.jar" sourcepath="/AzuraJava/lib/guava/guava-21.0-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
